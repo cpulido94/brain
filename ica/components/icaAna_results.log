@@ -1,0 +1,223 @@
+Starting Analysis 
+
+ 
+------------------------------------------------------------------------------------
+GETTING DATA REDUCTION PARAMETERS----------------------
+------------------------------------------------------------------------------------
+ Reduction step 1 starts with 1 groups and gets reduced to 1 groups
+    -New Group #1: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 151 BOLD timepoints
+     The new group will have a total of 151 stacked BOLD timepoints
+     This group will then be reduced to 30 principal components
+------------------------------------------------------------------------------------
+END GETTING DATA REDUCTION PARAMETERS----------------------
+------------------------------------------------------------------------------------
+ 
+Checking to make sure parameters are correct...
+  Checking mask 
+  Checking principal component parameters
+Done with parameter error check 
+ 
+------------------------------------------------------------------------------------
+STARTING DATA REDUCTION (PRINCIPAL COMPONENTS ANALYSIS)
+------------------------------------------------------------------------------------
+--Extracting principal components for data reduction( time #1)
+
+
+--Doing pca on Subject #1 Session #1
+Removing mean per time point ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 151 ^2
+Calculating eigendecomposition
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+99.976% of (non-zero) eigenvalues retained.
+Done extracting principal components for data reduction( time #1)
+
+Done with data reduction( time # )
+ 
+------------------------------------------------------------------------------------
+ENDING DATA REDUCTION (PRINCIPAL COMPONENTS ANALYSIS)
+------------------------------------------------------------------------------------
+ 
+---------------------------------------------------------------------
+STARTING GROUP ICA STEP 
+---------------------------------------------------------------------
+Using spatial ica ...
+
+Number of times ICA will run is 1
+
+Run 1 / 1
+
+
+Input data size [30,64914] = 30 channels, 64914 frames.
+Finding 30 ICA components using logistic ICA.
+Initial learning rate will be 0.0044102, block size 147.
+Learning rate will be multiplied by 0.9 whenever angledelta >= 60 deg.
+Training will end when wchange < 1e-06 or after 512 steps.
+Online bias adjustment will be used.
+Removing mean of each channel ...
+Not removing mean of each channel!!!
+Final training data range: -12.2296 to 15.3075
+Computing the sphering matrix...
+Starting weights are the identity matrix ...
+Sphering the data ...
+Beginning ICA training ...
+Lowering learning rate to 0.00396918 and starting again.
+Lowering learning rate to 0.00357226 and starting again.
+Lowering learning rate to 0.00321504 and starting again.
+step 1 - lrate 0.003215, wchange 52.150620
+Lowering learning rate to 0.00289353 and starting again.
+step 1 - lrate 0.002894, wchange 48.587273
+step 2 - lrate 0.002894, wchange 31.302782
+Lowering learning rate to 0.00260418 and starting again.
+step 1 - lrate 0.002604, wchange 47.651062
+Lowering learning rate to 0.00234376 and starting again.
+step 1 - lrate 0.002344, wchange 43.052094
+step 2 - lrate 0.002344, wchange 28.152889
+step 3 - lrate 0.002344, wchange 22.807049, angledelta 89.6 deg
+step 4 - lrate 0.002109, wchange 14.071231, angledelta 109.8 deg
+step 5 - lrate 0.001898, wchange 14.795414, angledelta 103.3 deg
+step 6 - lrate 0.001709, wchange 9.883114, angledelta 112.4 deg
+step 7 - lrate 0.001538, wchange 5.175643, angledelta 108.5 deg
+step 8 - lrate 0.001384, wchange 2.457480, angledelta 108.3 deg
+step 9 - lrate 0.001246, wchange 1.907604, angledelta 114.5 deg
+step 10 - lrate 0.001121, wchange 2.586878, angledelta 110.8 deg
+step 11 - lrate 0.001009, wchange 2.664032, angledelta 128.6 deg
+step 12 - lrate 0.000908, wchange 1.507843, angledelta 120.8 deg
+step 13 - lrate 0.000817, wchange 1.214108, angledelta 118.7 deg
+step 14 - lrate 0.000735, wchange 1.294603, angledelta 119.4 deg
+step 15 - lrate 0.000662, wchange 1.095547, angledelta 122.3 deg
+step 16 - lrate 0.000596, wchange 0.892222, angledelta 122.1 deg
+step 17 - lrate 0.000536, wchange 0.804932, angledelta 119.1 deg
+step 18 - lrate 0.000483, wchange 0.791452, angledelta 119.8 deg
+step 19 - lrate 0.000434, wchange 0.650491, angledelta 119.7 deg
+step 20 - lrate 0.000391, wchange 0.570255, angledelta 125.1 deg
+step 21 - lrate 0.000352, wchange 0.426772, angledelta 121.1 deg
+step 22 - lrate 0.000317, wchange 0.448438, angledelta 122.6 deg
+step 23 - lrate 0.000285, wchange 0.401094, angledelta 126.1 deg
+step 24 - lrate 0.000256, wchange 0.346175, angledelta 119.8 deg
+step 25 - lrate 0.000231, wchange 0.280639, angledelta 126.8 deg
+step 26 - lrate 0.000208, wchange 0.288857, angledelta 124.2 deg
+step 27 - lrate 0.000187, wchange 0.221828, angledelta 125.3 deg
+step 28 - lrate 0.000168, wchange 0.189373, angledelta 115.0 deg
+step 29 - lrate 0.000151, wchange 0.157249, angledelta 118.6 deg
+step 30 - lrate 0.000136, wchange 0.160340, angledelta 107.4 deg
+step 31 - lrate 0.000123, wchange 0.133235, angledelta 127.5 deg
+step 32 - lrate 0.000110, wchange 0.112449, angledelta 115.9 deg
+step 33 - lrate 0.000099, wchange 0.103512, angledelta 122.9 deg
+step 34 - lrate 0.000089, wchange 0.090108, angledelta 126.4 deg
+step 35 - lrate 0.000080, wchange 0.079136, angledelta 114.5 deg
+step 36 - lrate 0.000072, wchange 0.067364, angledelta 115.6 deg
+step 37 - lrate 0.000065, wchange 0.053382, angledelta 115.5 deg
+step 38 - lrate 0.000059, wchange 0.047541, angledelta 112.6 deg
+step 39 - lrate 0.000053, wchange 0.041942, angledelta 125.0 deg
+step 40 - lrate 0.000048, wchange 0.028375, angledelta 118.0 deg
+step 41 - lrate 0.000043, wchange 0.035071, angledelta 121.2 deg
+step 42 - lrate 0.000038, wchange 0.026539, angledelta 124.6 deg
+step 43 - lrate 0.000035, wchange 0.018858, angledelta 112.0 deg
+step 44 - lrate 0.000031, wchange 0.014884, angledelta 122.6 deg
+step 45 - lrate 0.000028, wchange 0.014513, angledelta 112.1 deg
+step 46 - lrate 0.000025, wchange 0.013681, angledelta 120.7 deg
+step 47 - lrate 0.000023, wchange 0.008975, angledelta 118.5 deg
+step 48 - lrate 0.000020, wchange 0.006313, angledelta 115.8 deg
+step 49 - lrate 0.000018, wchange 0.005661, angledelta 112.9 deg
+step 50 - lrate 0.000017, wchange 0.005651, angledelta 127.8 deg
+step 51 - lrate 0.000015, wchange 0.003831, angledelta 117.7 deg
+step 52 - lrate 0.000013, wchange 0.003117, angledelta 119.2 deg
+step 53 - lrate 0.000012, wchange 0.002286, angledelta 120.2 deg
+step 54 - lrate 0.000011, wchange 0.001519, angledelta 116.6 deg
+step 55 - lrate 0.000010, wchange 0.001042, angledelta 106.3 deg
+step 56 - lrate 0.000009, wchange 0.000987, angledelta 116.1 deg
+step 57 - lrate 0.000008, wchange 0.000707, angledelta 115.7 deg
+step 58 - lrate 0.000007, wchange 0.000404, angledelta 118.1 deg
+step 59 - lrate 0.000006, wchange 0.000250, angledelta 102.1 deg
+step 60 - lrate 0.000006, wchange 0.000182, angledelta 108.5 deg
+step 61 - lrate 0.000005, wchange 0.000127, angledelta 101.4 deg
+step 62 - lrate 0.000005, wchange 0.000097, angledelta 102.6 deg
+step 63 - lrate 0.000004, wchange 0.000060, angledelta 105.1 deg
+step 64 - lrate 0.000004, wchange 0.000049, angledelta 94.0 deg
+step 65 - lrate 0.000003, wchange 0.000071, angledelta 112.5 deg
+step 66 - lrate 0.000003, wchange 0.000020, angledelta 97.5 deg
+step 67 - lrate 0.000003, wchange 0.000014, angledelta 101.5 deg
+step 68 - lrate 0.000002, wchange 0.000010, angledelta 93.1 deg
+step 69 - lrate 0.000002, wchange 0.000006, angledelta 91.1 deg
+step 70 - lrate 0.000002, wchange 0.000005, angledelta 96.3 deg
+step 71 - lrate 0.000002, wchange 0.000003, angledelta 82.8 deg
+step 72 - lrate 0.000002, wchange 0.000002, angledelta 88.7 deg
+step 73 - lrate 0.000001, wchange 0.000002, angledelta 94.8 deg
+step 74 - lrate 0.000001, wchange 0.000001, angledelta 92.2 deg
+step 75 - lrate 0.000001, wchange 0.000001, angledelta 84.9 deg
+Sorting components in descending order of mean projected variance ...
+Components not ordered by variance.
+
+Using skewness of the distribution to determine the sign of the components ...
+Changing sign of component 2
+Changing sign of component 5
+Changing sign of component 6
+Changing sign of component 8
+Changing sign of component 10
+Changing sign of component 17
+Changing sign of component 19
+Changing sign of component 20
+Changing sign of component 23
+Changing sign of component 28
+Changing sign of component 29
+Changing sign of component 30
+---------------------------------------------------------------------
+DONE CALCULATING GROUP ICA
+---------------------------------------------------------------------
+ 
+---------------------------------------------------------------------
+STARTING BACK RECONSTRUCTION STEP
+---------------------------------------------------------------------
+
+Using GICA Back Reconstruction Approach ...
+
+Back reconstructing  set 1
+-done back reconstructing  set 1
+-saving back reconstructed ica data for set 1 -> icaAna_ica_br1.mat
+---------------------------------------------------------------------
+DONE WITH BACK RECONSTRUCTION STEP
+---------------------------------------------------------------------
+ 
+ 
+---------------------------------------------------------------------
+STARTING TO SCALE COMPONENT SETS
+---------------------------------------------------------------------
+Computing offset using the mean component maps which will be subtracted to the subject component maps ...
+Done
+--Subject 1 Session 1's Component Set
+--Loading Functional data and scaling components to data units
+...saving scaled ica data for subject 1 session 1 in nifti format and as matlab file
+---------------------------------------------------------------------
+DONE SCALING COMPONENTS
+---------------------------------------------------------------------
+ 
+ 
+---------------------------------------------------------------------
+STARTING GROUP STATS STEP
+---------------------------------------------------------------------
+Only one subject, not calculating stats
+
+Computing spectra and FNC correlations of all subjects and sessions components ...
+Timecourses will be despiked when computing FNC correlations...
+Timecourses will be filtered when computing FNC correlations using HF cutoff of 0.15 Hz ...
+
+Done
+
+File /home/cristian/Documentos/brain/alejandra-parra/ica/components/icaAna_postprocess_results.mat contains spectra and FNC correlations
+1. spectra_tc_all - Timecourses spectra. spectra_tc_all variable is of dimensions subjects x sessions x spectral length x components
+2. fnc_corrs_all - FNC correlations transformed to fisher z-scores. fnc_corrs_all variable is of dimensions subjects x sessions x components x components
+3. spatial_maps_MI - Mutual information is computed between components spatially. spatial_maps_MI variable is of dimensions subjects x sessions x components x components
+4. kurt_comp - Kurtosis is computed on the spatial maps and timecourses. kurt_comp variable is of dimensions subjects x sessions x components
+---------------------------------------------------------------------
+ENDING GROUP STATS STEP
+---------------------------------------------------------------------
+ 
+Parallel pool using the 'local' profile is shutting down.
+Time taken to run the analysis is 36.7919 seconds
+
+All the analysis information is stored in the file /home/cristian/Documentos/brain/alejandra-parra/ica/components/icaAna_results.log
+Finished with Analysis
+
