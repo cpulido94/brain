@@ -1,1 +1,0 @@
-Inconsistent 'ImageOrientationPatient' for Subject PARRA PALENCIA MARIA ALEJANDRA, 3-pl T2* FGRE (Series 1). Series skipped.
