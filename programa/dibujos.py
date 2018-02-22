@@ -43,3 +43,10 @@ mascara=direccion+rutamascara
 compt=image.index_img(componentes,20)
 plotting.plot_stat_map(compt,bg_img=mascara,threshold=0)
 plt.show()
+plotting.plot_glass_brain(compt,black_bg=mascara,colorbar=True,threshold=0.7)
+plt.show()
+for i, cur_img in enumerate(image.iter_img(componentes)):
+    plotting.plot_stat_map(cur_img, display_mode="z", title="IC %d" % i,
+                  cut_coords=1, colorbar=False)
+
+plt.show()
